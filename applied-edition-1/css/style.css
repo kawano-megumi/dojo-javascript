@@ -1,0 +1,54 @@
+html, body {
+	font-size: 16px;
+}
+.container {
+	max-width: 500px;
+	margin: auto;
+}
+h1 {
+	margin: 3rem 0;
+	font-size: 2rem;
+	text-align: center;
+}
+form {
+	margin-top: 3rem;
+}
+dl {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+	padding: 1rem 0;
+}
+dl:first-child {
+	border-top: 1px solid #ddd;
+}
+dl dt {
+	flex: 0 0 100px;
+}
+dl dd {
+	flex: 1 1 calc(100% - 100px);
+}
+
+input[type="text"],input[type="password"] {
+	padding: 0.8em 0.5em;
+	width: 80%;
+}
+
+button {
+	border: none;
+	padding: 1rem;
+	width: 80%;
+	margin: 0 auto;
+	background-color: orange;
+	font-size: 1.2rem;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.error {
+	background-color: #ffcccc;
+	color: red;
+}
